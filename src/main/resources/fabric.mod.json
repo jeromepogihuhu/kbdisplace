@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "kbdisplace",
+	"version": "${version}",
+	"name": "KB Displace",
+	"description": "KB Displacement macro keybinds for combat.",
+	"authors": [
+		"kanha"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/kbdisplace/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.kbdisplace.KbDisplace"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
